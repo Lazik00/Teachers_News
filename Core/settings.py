@@ -10,7 +10,15 @@ SECRET_KEY = 'django-insecure-+78yqh#@n8lr)ya^0x&)k&d2v=wjapj!)&p-cx3uhzom=m+2gk
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["www.admin.ishbozor.uz","admin.ishbozor.uz","bdtu-al.uz", "www.bdtu-al.uz", "37.140.216.113"]
+ALLOWED_HOSTS = [
+    "www.admin.ishbozor.uz",
+    "admin.ishbozor.uz",
+    "bdtu-al.uz",
+    "www.bdtu-al.uz",
+    "api.bdtu-al.uz",    # <-- MUAMMO SHU YERDA TUZATILDI
+    "37.140.216.113"
+]
+
 
 
 
