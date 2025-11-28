@@ -14,6 +14,7 @@ ALLOWED_HOSTS = ["www.admin.ishbozor.uz","admin.ishbozor.uz","bdtu-al.uz", "www.
 
 
 
+
 INSTALLED_APPS = [
     'jazzmin',
     # 'material',
